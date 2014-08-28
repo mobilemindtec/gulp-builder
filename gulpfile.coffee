@@ -77,7 +77,7 @@ gulp.task 'watch:jade', ->
 	gulp.watch sources.jade, watcher 'compile:jade'
 
 gulp.task 'watch:handlebars', ->
-	gulp.watch sources.handlebars, watcher 'copy:handlebars'
+	gulp.watch sources.handlebars, watcher 'compile:handlebars'
 
 gulp.task 'watch:html', ->
 	gulp.watch sources.html, watcher 'copy:html'

@@ -12,10 +12,6 @@ ViewName = (function(_super) {
     return ViewName.__super__.constructor.apply(this, arguments);
   }
 
-  ViewName.prototype.model = new Backbone.Model({
-    name: 'Colonas'
-  });
-
   ViewName.prototype.initialize = function() {
     window.Model = this.model;
     this.listenTo(this.model, 'change', this.render);
