@@ -1,0 +1,3 @@
+new ViewName({
+  el: '#main'
+});

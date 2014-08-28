@@ -1,0 +1,6 @@
+
+
+new ViewName {el: '#main' }
+
+
+
